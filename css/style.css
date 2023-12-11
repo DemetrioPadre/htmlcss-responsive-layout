@@ -91,11 +91,15 @@ a{
 
 /* INIZIO MAIN/SECTION */
 
+/* INIZIO PRIMA SEZIONE */
+
 .row{
     margin-left: -15px;
     margin-right: -15px;
     display: block;
-    flex-wrap: wrap;
+    /* 
+    display:flex;
+    flex-wrap: wrap;  da usare dopo i 480px */
 }
 
 [class*="col"]{
@@ -119,9 +123,25 @@ a{
     display: block;
 }
 
+
+/* FINE PRIMA SEZIONE DEL MAIN */
+
+
+/* INIIZO SECONDA SEZIONE */
+
+#planning > .container {
+    background-color: var(--primary-color);
+}
+
+
+
+
 /* MEDIA QUERY */
 
 @media screen and (min-width:480px) {
-    
+    #header main{
+         width: 100%;
+    }
+   
 }
 
