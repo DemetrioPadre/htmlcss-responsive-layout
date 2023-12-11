@@ -179,6 +179,43 @@ a{
 
 /* FINE SEZIONE BENEFITS */
 
+/* SEZIONE ABOUT US */
+#about-us > .container .card{
+    margin: 10px;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+/* fine sezione */
+
+/* SEZIONE PRICE */
+
+#price > .container .card{
+    background-color: var(--primary-color);
+    margin: 10px;
+
+}
+
+
+
+
+
+/*  FINE SEZIONE PRICE */
+
+/* FOOTER */
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+#footer > .row > .card {
+   
+}
+/* FINE FOOTER */
+
+
+
 
 
 
