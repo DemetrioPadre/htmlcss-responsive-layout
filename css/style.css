@@ -1,3 +1,14 @@
+/* ROOT */
+:root{
+    --primary-color:#9792e4;
+    --secondary-color:#0084fd;
+    --card-color:#5b6f81;
+    --card-bg-color:#b5ddff;
+}
+
+
+
+
 /* RESET */
 
 *{
@@ -26,6 +37,7 @@ ul{
 }
 li{
     display: inline-block;
+   
 }
 
 img{
@@ -40,4 +52,32 @@ a{
     content: "";
     display: block;
     clear: both;
+}
+
+/* HEADER */
+#header{
+    background-color: var(--secondary-color);
+    color: white;
+
+}
+
+#header > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header > .container >.logo,
+#header > .container > .nav{
+    padding: 25px;
+}
+
+ .container > .nav li {
+ margin-right: 20px;    
+}
+
+.link-radius{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
 }
