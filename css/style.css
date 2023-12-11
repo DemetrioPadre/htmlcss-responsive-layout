@@ -91,7 +91,7 @@ a{
 
 /* INIZIO MAIN/SECTION */
 
-/* INIZIO PRIMA SEZIONE */
+/* INIZIO PRIMA SEZIONE: DEMO-APP */
 
 .row{
     margin-left: -15px;
@@ -127,12 +127,13 @@ a{
 /* FINE PRIMA SEZIONE DEL MAIN */
 
 
-/* INIIZO SECONDA SEZIONE */
+/* INIIZO SECONDA SEZIONE:  PLANNING*/
 
 #planning > .container {
     background-color: var(--primary-color);
 }
 
+/* FINE SECONDA SEZIONE */
 
 
 
