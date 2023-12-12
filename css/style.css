@@ -121,7 +121,7 @@ a{
 #file{
     color: var(--secondary-color);
     font-size: 100px;
-    margin: 50%;
+    margin-left: 80px;
     
     
 }
@@ -129,14 +129,12 @@ a{
 h3{
     color: var(--secondary-color);
     text-align: center;
-    line-height: 80px;
-    
-
+    line-height: 60px;
 }
 p{
     color: var(--card-color);
     text-align: center;
-    line-height: 30px
+    line-height: 20px
 }
 .card-left.col-1-2{
     line-height: 40px;
@@ -150,7 +148,8 @@ p{
     color: white;
     border-radius: 20px;
     padding: 5px 40px;
-    margin-top: 50px;
+    margin: 20px;
+    
 }
 
 [class*=".col"]{
@@ -178,6 +177,42 @@ p{
 
 #planning > .container {
     background-color: var(--primary-color);
+    max-width: 100%;
+}
+
+/* #plan-left{
+   margin-left: 100px;
+   height: 200px;
+} */
+h2 , span{
+    color: white;
+    margin-left: 100px;
+}
+
+.card-left.col-1-2{
+    margin-left: 200px;
+
+}
+
+.card-left.col-1-2 > span{
+line-height: 10px;
+
+}
+
+.card-right.col-1-2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    height: 100%;
+}
+.arrow{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    /* transform: translate(-50%,-50%); */
+    margin-left: 100px;
 }
 
 /* FINE SECONDA SEZIONE */
