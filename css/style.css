@@ -436,12 +436,24 @@ font-size: 30px;
 /* FOOTER */
 
 #footer{
-    background-color: black;
+    background-color: #333333;
     color: white;
 }
 
-#footer > .row > .card {
-   
+#footer > .container .card {
+   display: block;
+}
+#footer p{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+#footer .underline{
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-align: center;
 }
 /* FINE FOOTER */
 
