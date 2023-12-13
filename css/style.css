@@ -127,12 +127,12 @@ a{
     
 }
 
-h3{
+#demo-app h3{
     color: var(--secondary-color);
     text-align: center;
     line-height: 60px;
 }
-p{
+#demo-app p{
     color: var(--card-color);
     text-align: center;
     line-height: 20px
@@ -189,9 +189,9 @@ p{
    margin-left: 100px;
    height: 200px;
 } */
-h2 , span{
+#planning h2 , span{
     color: white;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .card-left.col-1-2{
@@ -205,6 +205,7 @@ h2 , span{
 
 .card-left.col-1-2 > span{
 line-height: 10px;
+margin-top: 50px;
 
 }
 
@@ -273,24 +274,54 @@ line-height: 10px;
 }
 
 
-
-
-
-
 /* FINE TESTIMONIALS */
 
 /* QUARTA SEZIONE */
 
 /* BENEFITS */
 
-#benefits > .container .row{
+#header-benefits{
+    width: 100%;
+}
+
+#header-benefits > h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom:60px ;
+}
+
+#benefits > .container {
     background-color: var(--primary-color);
-   
+    max-width: 100%;
+    
 }
 
 #benefits > .container .card{
-    margin: 10px;
+    margin: 20px;
     background-color: white;
+   min-height: 300px;
+   
+   
+}
+
+#benefits h2 {
+    color: var(--primary-color);
+    font-size: 60px;
+    margin: 0;
+    
+    
+} 
+
+#benefits h3{
+color: var(--primary-color);
+font-size: 30px;
+}
+
+#benefits p{
+    color: var(--card-color);
+    text-align: center;
 }
 
 /* FINE SEZIONE BENEFITS */
@@ -300,15 +331,62 @@ line-height: 10px;
     margin: 10px;
     background-color: white;
     border: 1px solid blue;
+    display: block;
+}
+
+#about-us h2{
+    color: var(--primary-color);
+    font-size: 60px;
+    margin-top: 50px;
+   
+}
+#about-us p{
+    line-height: 40px;
+    font-size: 20px;
+    margin-top:50px ;
+
+}
+#about-us .img-radius{
+    display: block;
+    position: relative;
+}
+#photo-about-us{
+    object-fit: cover; 
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#about-us .img-radius p{
+    color: var(--primary-color);
+    font-size: 35px;
+    
+}
+#about-us #quote{
+    position: absolute;
+    /* inserire posizione */
+}
+#linkedin{
+    background-color: var(--primary-color);
+    
+    border-radius: 20px;
+}
+#linkedin > p{
+    color: white;
 }
 
 /* fine sezione */
 
 /* SEZIONE PRICE */
 
-#price > .container .card{
+#price > .container{
+    max-width: 100%;
     background-color: var(--primary-color);
-    margin: 10px;
+}
+
+#price > .container .card{
+    
+ margin: 10px;
 
 }
 
