@@ -60,7 +60,7 @@ a{
     padding: 1rem;
     display: flex;
     border-radius: 20px;
-    padding: 20px;
+    
     margin: 40px 10px 10px;
 }
 
@@ -330,8 +330,9 @@ font-size: 30px;
 #about-us > .container .card{
     margin: 10px;
     background-color: white;
-    border: 1px solid blue;
+    
     display: block;
+    margin-bottom: 100px;
 }
 
 #about-us h2{
@@ -385,10 +386,46 @@ font-size: 30px;
 }
 
 #price > .container .card{
-    
  margin: 10px;
+ display: block;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+#price span{
+    color: var(--card-color);
+   text-align: center;
+    margin-top: 40px;
 
 }
+#price h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+#price h4{
+    color: orange;
+    font-size: 100px;
+    text-align: center;
+}
+
+.started{
+    background-color: white;
+    color: var(--primary-color);
+    border-radius:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
+    width: 400px;
+    align-items: center;
+}
+
+/* #price span :nth-last-of-type(span){
+    margin-bottom: 50px;
+} */
 
 
 
